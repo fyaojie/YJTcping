@@ -7,7 +7,7 @@
 //
 
 #import "CMSViewController.h"
-
+#import <YJTcping.h>
 @interface CMSViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YJTcping startTcping];
 }
 
 - (void)didReceiveMemoryWarning

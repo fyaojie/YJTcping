@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJTcping'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJTcping.'
+  s.summary          = 'YJTcping'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+      YJTcping 自定义的小组件 
                        DESC
 
-  s.homepage         = 'https://github.com/562925462@qq.com/YJTcping'
+  s.homepage         = 'https://github.com/fyaojie/YJTcping'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '562925462@qq.com' => 'yaojie.feng@symbio.com' }
-  s.source           = { :git => 'https://github.com/562925462@qq.com/YJTcping.git', :tag => s.version.to_s }
+  s.author           = { 'fyaojie' => 'yaojie.feng@symbio.com' }
+  s.source           = { :git => 'https://github.com/fyaojie/YJTcping.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -38,5 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CocoaAsyncSocket', '~> 7.6.5'
+  s.dependency 'YJTimer'
 end
+
+

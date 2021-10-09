@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - YJTcping (0.1.0):
+    - CocoaAsyncSocket (~> 7.6.5)
+    - YJTimer
+  - YJTimer (0.1.0)
+
+DEPENDENCIES:
+  - YJTcping (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - YJTimer
+
+EXTERNAL SOURCES:
+  YJTcping:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  YJTcping: ee13304cc6728ee2a20108a354c20ac402563531
+  YJTimer: 8135ee398132636c0c800ed64c94138ace50b889
+
+PODFILE CHECKSUM: 98cad728c5a9e8a1bf9b48f960b327387e70a3d5
+
+COCOAPODS: 1.11.2
